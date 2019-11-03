@@ -1,0 +1,1 @@
+This website is a one page responsive site about some ideas that have been brought forward about eco-tech
