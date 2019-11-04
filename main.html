@@ -62,6 +62,47 @@
             color: black;
         }
 
+        #cards {
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+        width: 340px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 1em;
+        }
+
+        .card h3, .card p {
+        padding: 0 1rem;
+        }
+
+        .img-header {
+        height: 120px;
+        overflow: hidden;
+        }
+
+        .card button {
+        padding: 1em;
+        margin: 1em;
+        border: none;
+        background-color: cornflowerblue;
+        color: white;
+        width: 100px;
+        justify-self: end;
+        align-self: center;
+        margin-top: auto; 
+        }
+
+        #cards > .card > img {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            overflow: hidden;
+            width: 340px;
+            height: 200px
+        }
     </style>
     <!-- Navbar -->
     <div class="Navbar">
@@ -69,7 +110,7 @@
             <img src="images/logo.jpg" width="auto" height="75">
         </a>
         <div class="Buttons">
-            <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#cards">SOLUTIONS</a>
             <a class="nav-item nav-link" href="#">THING1</a>
             <a class="nav-item nav-link" href="#">THING2</a>
             <a class="nav-item nav-link" href="#">THING3</a>
@@ -81,6 +122,39 @@
         <div class="text">
             <h1>A whole new world...</h1> <br>
             <h3>The trash island</h3>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div id="cards">
+        <div class="card">
+            <img src="images/sea-bin.jpg">
+        
+            <h3>Seabin</h3>
+        
+            <p>The Seabin Project aims to create floating oceanic trashbins. At the moment, the project has released the Seabin V5, a sea bin for marinas. This device pumps water into it and intercepts trash. This fairly simple device can caputure around 1.4 tons of debris each year while only having a running cost of $3 a day. </p>
+            
+            <button><a href="https://seabinproject.com">Go to website!</a></button>
+        </div>
+        
+        <div class="card">
+            <img src="images/the-ocean-cleanup.jpg">
+        
+            <h3>The Ocean Cleanup</h3>
+            
+            <p>This company aspires to cleanup around 50% of the trash of the Great Pacific Garbage Patch in 5 years. They are creating artificial floating coastlines in the middle of the ocean that will concentrate the plastic in order to make it easier to then pick up. This system consists of a long buoy that keeps the system afloat with a net attached beneath it that traps smaller partiles and stops them from floating under and away.</p>
+            
+            <button><a href="https://theoceancleanup.com">Go to website!</a></button>
+        </div>
+        
+        <div class="card">
+            <img src="images/5-gyres.jpg">
+            
+            <h3>5 Gyres</h3>
+
+            <p>5 Gyres is an organization that aspires to find solutions to the problem that is plastic. Their tactic is to use science and research as a weapon against the use of plastic. Their research on identifying plastic microbeads has influenced President Obama in signing the Microbead-Free Waters Act.</p>
+            
+            <button><a href="https://www.5gyres.org">Go to website!</a></button>
         </div>
     </div>
 </body>
