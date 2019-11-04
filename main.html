@@ -32,11 +32,12 @@
                 justify-content: center;
                 flex-direction: row;
                 align-items: center;
-                
             }
 
             .Buttons > .nav-item {
                 margin: 1.5em;
+                text-decoration: none;
+                color: black;
             }
 
             /* Here is the style for the Hero */
@@ -70,32 +71,32 @@
                 justify-content: center;
             }
             .card {
-            width: 340px;
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            margin: 1em;
+                width: 340px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                margin: 1em;
             }
 
             .card h3, .card p {
-            padding: 0 1rem;
+                padding: 0 1rem;
             }
 
             .img-header {
-            height: 120px;
-            overflow: hidden;
+                height: 120px;
+                overflow: hidden;
             }
 
             .card button {
-            padding: 1em;
-            margin: 1em;
-            border: none;
-            background-color: cornflowerblue;
-            color: white;
-            width: 100px;
-            justify-self: end;
-            align-self: center;
-            margin-top: auto; 
+                padding: 1em;
+                background-color: #66AFEB;
+                color: white;
+                border: none;
+                border-radius: 0.25em;
+                margin: 0 0 1em 0;
+                width: 100px;
+                justify-self: center;
+                align-self: center;
             }
 
             #cards > .card > img {
@@ -106,6 +107,11 @@
                 width: 340px;
                 height: 200px
             }
+
+            #cards > .card > button > a {
+                text-decoration: none;
+                color: white;
+            } 
 
             /* Here is style for the about section */
             #long-image {
@@ -133,7 +139,7 @@
             }
 
             /* Here is the style for the forms */
-            .wrapper {
+            #wrapper {
                 display: flex;
                 justify-content: center;
             }
@@ -223,7 +229,7 @@
                 <a class="nav-item nav-link" href="#cards">SOLUTIONS</a>
                 <a class="nav-item nav-link" href="#long-image">ABOUT</a>
                 <a class="nav-item nav-link" href="#">THING2</a>
-                <a class="nav-item nav-link" href="#">THING3</a>
+                <a class="nav-item nav-link" href="#wrapper">CONTACT</a>
             </div>
         </div> 
 
@@ -235,7 +241,7 @@
             </div>
         </div>
 
-        <!-- Info -->
+        <!-- Info cards -->
         <div id="cards">
             <div class="card">
                 <img src="images/sea-bin.jpg">
@@ -276,7 +282,7 @@
             </div>
         </div>
 
-        <div class="wrapper">
+        <div id="wrapper">
             <form action="#" method="post">
         
                 <section>
