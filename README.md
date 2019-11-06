@@ -44,7 +44,7 @@ As for the Hero and the photo in the background of the about section, I used the
 
 <img src="/images/FEW-hero-image.jpg" width="55%"></img>
 
-<img src="/images/open-ocean-hero.jpg" width="55%"></img>
+<img src="/images/open-ocean_hero.jpg" width="55%"></img>
 
 ## Running the code
 
